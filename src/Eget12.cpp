@@ -1,5 +1,6 @@
 ﻿#include <iostream>
 #include "./tasks/T8671.h"
+#include "./tasks/T8599.h"
 
 int main(){
 	while (true){
@@ -9,6 +10,9 @@ int main(){
 		switch (i){
 			case 8671:
 				T8671::start();
+				continue;
+			case 8599:
+				T8599::start();
 				continue;
 			default:
 				std::cout << "number not found, exit\n";

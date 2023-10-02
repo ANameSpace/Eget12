@@ -20,7 +20,7 @@
 void T8671::start() {
     for (int m = 0; m < 100000; m++){
         std::string input = "4";
-        std::string add(m, '5');
+        std::string add(m, '6');
         int sum = 0;
 
         input += add;
@@ -41,7 +41,7 @@ void T8671::start() {
             sum += c - '0';
         }
         std::cout << m << " | sum = " << sum << std::endl;
-
+        std::cout << "-----\n";
         if (sum > 1000) {
             std::cout << "8671 answer\n";
             std::cout << "Minimum m: " << m << std::endl;
