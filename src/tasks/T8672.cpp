@@ -50,5 +50,5 @@ void T8672::start() {
         }
     }
     std::cout << "8672 answer\n";
-    std::cout << "Minimum m: " << c << std::endl;
+    std::cout << "Count m: " << c << std::endl;
 }

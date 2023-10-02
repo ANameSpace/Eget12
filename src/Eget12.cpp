@@ -23,7 +23,5 @@ int main(){
 				break;
 		}
 		break;
-
 	}
-    
 }
