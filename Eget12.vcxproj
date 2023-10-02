@@ -130,10 +130,12 @@
     <ClCompile Include="src\Eget12.cpp" />
     <ClCompile Include="src\tasks\T8671.cpp" />
     <ClCompile Include="src\tasks\T8599.cpp" />
+    <ClCompile Include="src\tasks\T8672.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\tasks\T8671.h" />
     <ClInclude Include="src\tasks\T8599.h" />
+    <ClInclude Include="src\tasks\T8672.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

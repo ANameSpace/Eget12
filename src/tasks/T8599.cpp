@@ -27,7 +27,7 @@
 
 void T8599::start() {
     int r = 0;
-    for (int m = 10; m <= 100; m++) {
+    for (int m = 10; m < 100; m++) {
         std::string input = "3";
         std::string add(m, '7');
         int sum = 0;

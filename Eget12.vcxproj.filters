@@ -24,12 +24,18 @@
     <ClCompile Include="src\tasks\T8599.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
+    <ClCompile Include="src\tasks\T8672.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="src\tasks\T8671.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="src\tasks\T8599.h">
+      <Filter>Файлы заголовков</Filter>
+    </ClInclude>
+    <ClInclude Include="src\tasks\T8672.h">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>
